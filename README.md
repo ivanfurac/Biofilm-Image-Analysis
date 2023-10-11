@@ -23,3 +23,4 @@ The OpenCV library which is required to run the code can simply be installed usi
 ```
 pip install opencv-python
 ```
+Official github page: https://github.com/opencv/opencv
