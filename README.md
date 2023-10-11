@@ -10,6 +10,15 @@ The dataset used in this project consisted of 721 biofilm photos taken every 6 m
 ### Tools and Methods
 OpenCV is an open-source Python library that contains a large number of computer vision tools. It was used to perform biofilm image segmentation (separate biofilm from the background) and measure biofilm area and perimeter for every segment.
 
+### Results and Future Work
+The algorithms from the OpenCV library are very fast and easy to use, but they are not precise when segmenting images that show biofilm in the early stages of its development, where the biofilm itself is still not fully visible. Those early images could simply be ignored, or a more complex algorithm could be used, such as a CNN model. Another interesting task that could be considered in future work is the prediction of biofilm thickness based on pixel intensity.
+
 ## Repository and Usage
-Complete code that includes image loading, preprocessing, segmentation, and quantitative analysis, together with examples of segmented images, can be found in the Jupyter Notebook in the repository.
-For Croatian readers, there is a PDF file that includes detailed description of the project.
+Complete code that includes image loading, preprocessing, segmentation, and quantitative analysis, together with examples of segmented images, can be found in the Jupyter Notebook `Biofilm Image Analysis - Code.ipynb` in the repository.
+For Croatian readers, there is a PDF file `Biofilm Image Analysis - Project Results.pdf` that includes detailed description of the project and the project results.
+
+The OpenCV library which is required to run the code can simply be installed using the following command:
+
+```
+pip install opencv-python
+```
