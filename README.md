@@ -1,4 +1,5 @@
 # Biofilm Image Analysis
+This project was done at the Faculty of Electrical Engineering and Computing, as a part of the master project course. It deals with the application of computer vision methods in biology and bioinformatics.
 
 ## Project Overview
 ### Introduction
